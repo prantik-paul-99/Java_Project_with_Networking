@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootpane_winner" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #14163a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="end.WinnerController">
+   <children>
+      <ImageView fitHeight="235.0" fitWidth="260.0" layoutX="58.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/NetBeansProjects/TreasureHunt/src/end-image/chest1.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="235.0" fitWidth="299.0" layoutX="396.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/NetBeansProjects/TreasureHunt/src/end-image/chest2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="215.0" fitWidth="235.0" layoutX="811.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/NetBeansProjects/TreasureHunt/src/end-image/chest1.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="454.0" layoutY="552.0" mnemonicParsing="false" onAction="#goback1" prefHeight="36.0" prefWidth="192.0" text="Main Menu">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="-3.0" layoutY="93.0" prefHeight="119.0" prefWidth="1100.0" text="Congrats!! You got the Treasure!! " textFill="#bff217">
+         <font>
+            <Font name="Algerian" size="56.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

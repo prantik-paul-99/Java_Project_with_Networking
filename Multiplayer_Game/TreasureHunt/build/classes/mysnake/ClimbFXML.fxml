@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #14163A;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mysnake.ClimbFXMLController">
+    <stylesheets>
+        <URL value="@climbfxml.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutY="-1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #14163A;">
+         <children>
+            <Label alignment="CENTER" layoutY="144.0" prefHeight="78.0" prefWidth="600.0" text="DO YOU WANT TO CLIMB THE LADDER?" textFill="#85afe4">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="yesbtn" layoutX="126.0" layoutY="274.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="127.0" style="-fx-background-color: #85afe4;" text="YES">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="nobtn" layoutX="349.0" layoutY="272.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="127.0" style="-fx-background-color: #85afe4;" text="NO">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Res/images/snake.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

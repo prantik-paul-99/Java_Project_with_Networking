@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wordtris.wordtrisController">
+   <children>
+      <ImageView fx:id="background" fitHeight="700.0" fitWidth="1160.0" layoutX="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/wordtris_bg.jpg" />
+         </image></ImageView>
+      <Label alignment="CENTER" layoutX="707.0" layoutY="379.0" prefHeight="225.0" prefWidth="17.0" style="-fx-background-color: #F81895; -fx-border-color: black;" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="33.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="504.0" layoutY="379.0" prefHeight="225.0" prefWidth="17.0" style="-fx-background-color: #F81895; -fx-border-color: black;" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="33.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="504.0" layoutY="604.0" prefHeight="4.0" prefWidth="220.0" style="-fx-background-color: #F81895; -fx-border-color: black;" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tris" alignment="CENTER" layoutX="521.0" layoutY="14.0" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: aqua; -fx-border-color: black;" textFill="#74038d">
+         <font>
+            <Font name="Bodoni MT" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="20.0" text="Total Words Passed :">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctwords" layoutX="71.0" layoutY="49.0" text="Correct Words  :" textFill="#46972b">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongwords" layoutX="73.0" layoutY="82.0" text="Wrong Words  :" textFill="#eb2020">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctwords" layoutX="202.0" layoutY="49.0" prefHeight="25.0" prefWidth="28.0" text="  " textFill="#46972b">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongwords" layoutX="202.0" layoutY="82.0" prefHeight="25.0" prefWidth="28.0" text="  " textFill="#eb2020">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalwordspassed" layoutX="207.0" layoutY="20.0" prefHeight="25.0" prefWidth="17.0" text="  ">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="typehere" alignment="CENTER" layoutX="529.0" layoutY="647.0" onKeyPressed="#enterpressed" prefHeight="30.0" prefWidth="170.0" promptText="Type Here">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="score" layoutX="857.0" layoutY="23.0" text="Score :" textFill="#0da0d1">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="989.0" layoutY="23.0" prefHeight="51.0" prefWidth="67.0" text="  " textFill="#0da0d1">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="43.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="131.0" fitWidth="144.0" layoutX="471.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/x.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="129.0" layoutX="127.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/p.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="113.0" layoutX="411.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/g.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="170.0" layoutX="351.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/l.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="91.0" fitWidth="120.0" layoutX="883.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/m.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="113.0" layoutX="707.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/b.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="113.0" layoutX="883.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/t.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

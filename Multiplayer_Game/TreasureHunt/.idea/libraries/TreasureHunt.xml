@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TreasureHunt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/TreasureHunt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

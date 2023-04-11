@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane_login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #14163A;" stylesheets="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/treasurehunt/optionsCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treasurehunt.LoginController">
+   <children>
+      <ImageView fitHeight="458.0" fitWidth="587.0" layoutX="257.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/images/GameLogo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="user_name" layoutX="481.0" layoutY="387.0" prefHeight="25.0" prefWidth="209.0" promptText="User Name" />
+      <ImageView fitHeight="62.0" fitWidth="65.0" layoutX="400.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/images/UserLogo%20-%20Copy.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="64.0" fitWidth="99.0" layoutX="378.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/images/PassLogo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="LogIn" layoutX="549.0" layoutY="562.0" mnemonicParsing="false" onAction="#logindone" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: purple; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Log In" textFill="#05fff6">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label contentDisplay="CENTER" layoutX="332.0" layoutY="616.0" prefHeight="17.0" prefWidth="176.0" text="Never Played Before ?" textFill="#f58300">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="SignUp" layoutX="549.0" layoutY="614.0" mnemonicParsing="false" onAction="#gotosignup" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: #980af1; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Sign Up" textFill="#02eeff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pass_word" layoutX="481.0" layoutY="460.0" prefHeight="25.0" prefWidth="209.0" promptText="Password" style="-: #14163A;">
+<!--         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>-->
+      </PasswordField>
+      <Button layoutX="1053.0" layoutY="823.0" mnemonicParsing="false" onAction="#exit" prefHeight="79.0" prefWidth="157.0" style="-fx-background-color: #14163A; -fx-border-color: navyblue;" textFill="#611502f2">
+         <font>
+            <Font name="Chiller" size="27.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="exit" fitHeight="62.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/images/download.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="warnings" alignment="CENTER" layoutX="74.0" layoutY="517.0" prefHeight="31.0" prefWidth="1013.0" textAlignment="CENTER" textFill="#fc0000">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

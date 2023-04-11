@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane_options" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #14163A;" stylesheets="file:/C:/Users/Asus/Documents/NetBeansProjects/TreasureHunt/src/treasurehunt/optionsCSS.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treasurehunt.OptionsController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="711.0" layoutX="209.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/images/Logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="266.0" layoutY="182.0" prefHeight="114.0" prefWidth="568.0" text="Options" textAlignment="CENTER" textFill="#24d3ff" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="66.0" />
+         </font>
+      </Label>
+      <Button id="goback" fx:id="goback" layoutX="87.0" layoutY="604.0" mnemonicParsing="false" onAction="#gotoback" prefHeight="38.0" prefWidth="74.0" style="-fx-background-color: indigo; -fx-background-radius: 10px; -fx-border-radius: 10px;" stylesheets="@optionsCSS.css" text="Go Back" textFill="#00fffef2">
+         <font>
+            <Font name="Arial Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="soundoff" layoutX="500.0" layoutY="350.0" mnemonicParsing="false" onAction="#soundoff" prefHeight="45.0" prefWidth="101.0" style="-fx-background-color: #0D75B4; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Sound Off" textFill="#00fffef2">
+         <font>
+            <Font name="Bell MT Bold" size="16.5" />
+         </font>
+      </Button>
+      <Button fx:id="soundon" layoutX="500.0" layoutY="420.0" mnemonicParsing="false" onAction="#soundon" prefHeight="45.0" prefWidth="101.0" style="-fx-background-color: #0D75B4; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Sound On" textFill="#00fffef2">
+         <font>
+            <Font name="Bell MT Bold" size="16.5" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

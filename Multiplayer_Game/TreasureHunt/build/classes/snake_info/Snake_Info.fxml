@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="snake_info_pane" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #14163A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake_info.Snake_InfoController">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="200.0" layoutX="477.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/Res/images/logo.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="322.0" layoutY="161.0" prefHeight="102.0" prefWidth="510.0" text="Snake Ladder Instructions" textFill="#00ff92">
+         <font>
+            <Font name="Algerian" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="319.0" prefHeight="29.0" prefWidth="767.0" text="1.  This is a turn by turn game   " textFill="#ff0066">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="374.0" prefHeight="29.0" prefWidth="767.0" text="2. On the left side there is a label which shows  players turn " textFill="#ff0066">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="433.0" prefHeight="29.0" prefWidth="767.0" text="3. There is also a dice which acts on clicking " textFill="#ff0066">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="492.0" prefHeight="29.0" prefWidth="767.0" text="4. At the top there are three themes .Player may use any of them" textFill="#ff0066">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="924.0" layoutY="611.0" mnemonicParsing="false" onAction="#proceed" prefHeight="50.0" prefWidth="114.0" style="-fx-background-color: purple; -fx-background-radius: 10px; -fx-border-radius: 10px;" stylesheets="@../treasurehunt/optionsCSS.css" text="Proceed" textFill="#f7ff05">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

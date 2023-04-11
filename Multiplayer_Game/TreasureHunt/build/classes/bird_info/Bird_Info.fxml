@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="bird_info_pane" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #14163A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bird_info.Bird_InfoController">
+   <children>
+      <ImageView fitHeight="145.0" fitWidth="196.0" layoutX="648.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/images/2.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="285.0" layoutY="193.0" prefHeight="110.0" prefWidth="540.0" text="Bird Shooting Instructions" textFill="#ff00f8">
+         <font>
+            <Font name="Algerian" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="325.0" prefHeight="29.0" prefWidth="767.0" text="1.  This is a single player game   " textFill="#9300ff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="380.0" prefHeight="29.0" prefWidth="767.0" text="2. There is a cannon that you have to press to activate" textFill="#9300ff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="439.0" prefHeight="34.0" prefWidth="818.0" text="3. Just start shooting bullets to start hunting birds" textFill="#9300ff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="498.0" prefHeight="29.0" prefWidth="767.0" text="4. You get 20 birds to hunt and 25 bullets to finish your quest" textFill="#9300ff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="924.0" layoutY="611.0" mnemonicParsing="false" onAction="#proceed" prefHeight="50.0" prefWidth="114.0" style="-fx-background-color: purple; -fx-background-radius: 10px; -fx-border-radius: 10px;" stylesheets="@../treasurehunt/optionsCSS.css" text="Proceed" textFill="#f7ff05">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="173.0" layoutY="555.0" prefHeight="29.0" prefWidth="767.0" text="5. When the bullets or the birds are exhausted, the game will be  over" textFill="#9300ff">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="145.0" fitWidth="196.0" layoutX="335.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/images/1.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="172.0" layoutX="527.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Documents/TreasureHunt/src/images/blast.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
